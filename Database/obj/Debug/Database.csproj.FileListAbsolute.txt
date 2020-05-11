@@ -1,0 +1,6 @@
+C:\Users\simao\source\repos\MVC_CadastroDeFrutas_SimaoMacedo\Database\bin\Debug\Database.dll
+C:\Users\simao\source\repos\MVC_CadastroDeFrutas_SimaoMacedo\Database\bin\Debug\Database.pdb
+C:\Users\simao\source\repos\MVC_CadastroDeFrutas_SimaoMacedo\Database\obj\Debug\Database.csprojAssemblyReference.cache
+C:\Users\simao\source\repos\MVC_CadastroDeFrutas_SimaoMacedo\Database\obj\Debug\Database.csproj.CoreCompileInputs.cache
+C:\Users\simao\source\repos\MVC_CadastroDeFrutas_SimaoMacedo\Database\obj\Debug\Database.dll
+C:\Users\simao\source\repos\MVC_CadastroDeFrutas_SimaoMacedo\Database\obj\Debug\Database.pdb

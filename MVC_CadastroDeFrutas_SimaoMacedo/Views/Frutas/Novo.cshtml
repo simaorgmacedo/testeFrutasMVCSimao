@@ -1,0 +1,29 @@
+﻿
+<div class="jumbotron">
+    <h3>NOVA FRUTA</h3>
+    <div>
+        <a href="/frutas" class="btn btn-default">Voltar</a>
+    </div>
+
+    <form action="/frutas/criar" method="post">
+        <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input type="text" class="form-control" id="nome" name="nome" maxlength="50">
+        </div>
+        <div class="form-group">
+            <label for="descricao">Descrição:</label>
+            <textarea class="form-control" id="descricao" name="descricao" maxlength="4000" placeholder="Digite até 4000 caracteres aqui dentro."></textarea>
+
+        </div>
+        <div class="form-group">
+            <label for="imagem">Imagem:</label>
+            <input type="file"  class="form-control" id="imagem" name="imagem">
+        </div>
+
+        
+
+        <button type="submit" class="btn btn-success">Cadastrar</button>
+    </form>
+
+</div>
+

@@ -1,0 +1,51 @@
+﻿@{
+    ViewBag.Title = "Frutas";
+    List<Business.Fruta> frutas = ViewBag.Frutas;
+}
+
+
+
+
+
+
+@if (TempData["Sucesso"] != null)
+{
+    <div class="alert alert-success">@TempData["Sucesso"]</div>
+}
+
+@if (TempData["Erro"] != null)
+{
+    <div class="alert alert-danger">@TempData["Erro "]</div>
+}
+
+<div class="jumbotron">
+    <h3>FRUTAS</h3>
+    <div>
+        <a href="/frutas/novo" class="btn btn-default">Cadastrar Frutas</a>
+    </div>
+    <table class="table">
+        <tr>    
+            <td> Nome</td>
+            <td> Descricao</td>
+            <td> Imagem</td>
+            <td>Editar</td>
+            <td>Excluir</td>
+        </tr>
+
+        @foreach (var f in frutas)
+        {
+
+            <tr>
+                <td> @f.Nome</td>
+                <td> @f.Descricao</td>
+                <td> @f.Imagem</td>
+                <td> <a href="/frutas/@f.Id/editar" class="btn btn-primary">Editar</a></td>
+                <td> <a href="/frutas/@f.Id/excluir" class="btn btn-danger" onclick="ValidaExclusao(@f.Id, event)">Excluir</a></td>
+            </tr>
+
+        }
+
+    </table>
+
+</div>
+
